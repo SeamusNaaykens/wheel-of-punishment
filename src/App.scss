@@ -1,0 +1,23 @@
+@use './styles/font.scss' as *;
+
+.wheel-of-punishment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "GLOBE";
+    background-image: url(./assets/images/IMG_1384.jpg);
+    background-repeat: repeat;
+    padding-left: 2rem;
+    background-size: contain;
+
+    &__title {
+        font-family: "GLOBE";
+        letter-spacing: .3125rem;
+        font-size: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    &__wheel-component {
+        font-family: 'GLOBE';
+    }
+}
